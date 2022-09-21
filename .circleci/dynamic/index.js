@@ -1,3 +1,3 @@
-import { writeNodeConfig } from "@bufferings/hello-circleci-config-sdk";
+const config = require("@bufferings/hello-circleci-config-sdk");
 
-writeNodeConfig("v.*", "../dynamicConfig.yml")
+config.writeNodeConfig("v.*", "../dynamicConfig.yml");
