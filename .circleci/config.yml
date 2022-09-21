@@ -18,4 +18,7 @@ jobs:
 workflows:
   dynamic-workflow:
     jobs:
-      - generate-config
+      - generate-config:
+          filters:
+            tags:
+              only: /v.*/
