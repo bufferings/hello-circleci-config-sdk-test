@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@bufferings/hello-circleci-config-sdk": "^0.0.1"
+    "@bufferings/hello-circleci-config-sdk": "^0.0.2"
   }
 }
