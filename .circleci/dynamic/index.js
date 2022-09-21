@@ -1,4 +1,4 @@
+const path = require("path");
 const config = require("@bufferings/hello-circleci-config-sdk");
 
-console.log(__dirname + "/dynamicConfig.yml")
-config.writeNodeConfig("v.*", __dirname + "../dynamicConfig.yml");
+config.writeNodeConfig("v.*", path.join(__dirname, "../dynamicConfig.yml"));
