@@ -1,0 +1,16 @@
+{
+  "name": "hello-circleci-config-sdk-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello test\"",
+    "deploy": "echo \"hello deploy\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bufferings/hello-circleci-config-sdk": "^0.0.1"
+  }
+}
