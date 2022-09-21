@@ -1,3 +1,4 @@
 const config = require("@bufferings/hello-circleci-config-sdk");
 
-config.writeNodeConfig("v.*", "../dynamicConfig.yml");
+console.log(__dirname + "/dynamicConfig.yml")
+config.writeNodeConfig("v.*", __dirname + "../dynamicConfig.yml");
